@@ -28,3 +28,13 @@ Row তার মধ্যে থাকে সকল cheldren কে একট�
 crossAxisSize দিয়ে আমারা column এর সাইজ বলে দিতে পারি।
 crossAxisAlignment দিয়ে আমারা এই মধ্যে থাকা cheldren এর এলাইন্মেন্ট পরিবর্তন করতে পারি।
 verticalDirection দিয়ে আমরা এই মধ্যে থাকা cheldren এর Direction পরিবর্তন করতে পারি। 
+
+# CircleAvatar কি ?
+CircleAvatar widget comes built-in with the flutter SDK. 
+It is simply a circle in which we can add background color, background image, or just some text. 
+It usually represents a user with his image or with his initials.
+Although we can make a similar widget from the ground up, this widget comes in handy in the fast development
+of an application.
+
+
+
