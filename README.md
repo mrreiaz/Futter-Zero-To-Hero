@@ -23,11 +23,16 @@ flutter  এই কাজটা অনেকটা ই সহজ করে দ�
 
 # The Anatomy of a Flutter App
 
-flutter এর মধ্যে সবকিছু ই widget 
-
+Flutter এর মধ্যে সবকিছু ই widget
 
 <p align="center">
-    <img src="/note/anatomy.png" width="50%" alt="mrreiaz">
+    <img src="/note/anatomy.png"  alt="mrreiaz">
+</p>
+
+উপরের ছবিতে দেখুন Scaffold,AppBar,Container,Row,Column,Text সব ই আলাদা আলাদা  widget । 
+নিচের ছবিতে দেখতে পাচ্ছেন widget tree 
+<p align="center">
+    <img src="/note/widget-tree.png" alt="mrreiaz">
 </p>
 
 
