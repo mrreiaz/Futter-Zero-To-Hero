@@ -20,39 +20,36 @@ class MyApp extends StatelessWidget {
                 CircleAvatar(),
                 Text('Mrreiaz'),
                 Text('Apps Dev'),
-                Container(
-                  color: Colors.white,
-                  padding: EdgeInsets.all(10.0),
-                  margin:
-                      EdgeInsets.symmetric(horizontal: 20.0, vertical: 20.0),
-                  child: Row(
-                    children: [
-                      Icon(
+                Padding(
+                  padding: const EdgeInsets.all(18.0),
+                  child: Card(
+                    color: Colors.white,
+                    child: ListTile(
+                      leading: Icon(
                         Icons.call,
                         size: 42.2,
                       ),
-                      SizedBox(
-                        width: 20.0,
-                      ),
-                      Text(
+                      title: Text(
                         '000-000-090',
                         style: TextStyle(fontSize: 28.0),
                       ),
-                    ],
+                    ),
                   ),
                 ),
-                Container(
-                  color: Colors.white,
-                  padding: EdgeInsets.all(10.0),
-                  margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 0.0),
-                  child: Row(
-                    children: [
-                      Icon(Icons.call),
-                      SizedBox(
-                        width: 20.0,
+                Padding(
+                  padding: const EdgeInsets.all(18.0),
+                  child: Card(
+                    color: Colors.white,
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.call,
+                        size: 42.2,
                       ),
-                      Text('000-000-090'),
-                    ],
+                      title: Text(
+                        '000-000-090',
+                        style: TextStyle(fontSize: 28.0),
+                      ),
+                    ),
                   ),
                 ),
               ],
